@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="v1">
+      <img src="asset/Images/1000022744.svg" width="82">
+  </div>
+  </nav>
+  <div class="weather-container">
+    <h1>Get Weather By City</h1>
+    
+   <div class="vm">
+    <div class="v6">
+      <button onclick="getWeather2()">About</button>
+      <div id="about"> </div>
+    </div>
+
+    <div class="v5">
+      <button onclick="getWeather3()">Weather</button>
+      <div id="weather"> </div>
+    </div>
+
+   </div>
+
+    <input type="text" id="cityInput" placeholder="Enter city">
+    <button id="vikky" onclick="getWeather()">Get Weather</button>
+    <div id="weatherInfo">  
+    </div>
+  </div>
+  <div id="vt">
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

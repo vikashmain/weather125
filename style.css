@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    background-image: url(asset/Images/black\ \ wallpaper\ by\ abej666\ -\ Download\ on\ ZEDGE™\ _\ 53ac.png)
+  }
+  
+  .weather-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: rgb(39, 38, 38);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .weather-container h1{
+   color: #fff;
+  }
+  input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  #vt{
+    text-align: center;
+  }
+  
+  
+  #weatherInfo {
+    margin-top: 20px;
+    color: #fff;
+  }
+  nav img{
+   background-color: red; 
+   height: 90px;
+  }
+  .vk{
+    display: flex;
+    margin-bottom: 10px;
+    gap: 10px;
+  }
+  #weather{
+    color: rgb(234, 220, 220);
+  }
+  #about{
+    color: rgb(241, 229, 229);
+  }
+  #weatherInfo{
+    color: rgb(234, 220, 220)
+  }
+  .vm{
+    display: flex;
+    gap: 10px;
+  }
+ .v6{
+   margin-bottom: 10px;
+  }
+.v5{
+  margin-left: 0px;
+}
+@media screen and (min-width:750px) {
+ input ::placeholder{
+  color: white;
+  #vikky{
+ margin-top:7px;
+}
+}
+}
